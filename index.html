@@ -7,6 +7,7 @@
     <title>AI Poeme Generatort</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>
         Welcome to the AI English Poem Generator
@@ -18,10 +19,12 @@
             <input type="text" placeholder="Enter the topic of the English poem"
             autofocus
             required
-            autocomplete="off" />
-            <input type="submit" />
+            autocomplete="off" 
+            class="instructions"
+            />
+            <input type="submit" class="submit-button" />
         </form>
-        <div>
+        <div class="poem">
             The poem will go here
             <br />
             The poem will go here
@@ -40,6 +43,7 @@
             > and is <a href="https://ai-english-poem-generator-immac.netlify.app/" target="_blank"> on Netlify. </a>
 
         </footer>
+        </div>
         
     </h1>
     <script src="src/index.js"></script>
